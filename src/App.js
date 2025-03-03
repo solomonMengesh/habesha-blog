@@ -4,11 +4,11 @@ import { ThemeProvider } from './context/ThemeContext';
 import { AuthProvider } from './context/AuthContext';
 
 // Pages
-import HomePage from './pages/HomePage';
+import HomePage from './pages/Home';
 import PostPage from './pages/PostPage';
 import CategoryPage from './pages/CategoryPage';
-import LoginPage from './pages/LoginPage';
-import RegisterPage from './pages/RegisterPage';
+import LoginPage from './pages/Login';
+import RegisterPage from './pages/Register';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 
