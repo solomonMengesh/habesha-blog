@@ -1,10 +1,15 @@
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
-import App from './App';  // .js extension for JS files
-import './index.css';
+// import React from 'react';
+// import { ThemeProvider } from './contexts/ThemeContext'; // Adjust the path
+// import Navbar from './components/Navbar'; // your Navbar component
+// import HomePage from './pages/HomePage'; // your HomePage component
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>
-);
+// const App = () => {
+//   return (
+//     <ThemeProvider>
+//       <Navbar />
+//       <HomePage />
+//     </ThemeProvider>
+//   );
+// };
+
+// export default App;
