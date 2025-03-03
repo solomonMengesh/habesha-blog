@@ -18,7 +18,7 @@ const AboutPage = () => {
           </div>
         </div>
 
-        {/* Mission Section */}
+        {/* Mission Section
         <div className="py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto">
@@ -31,7 +31,7 @@ const AboutPage = () => {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Features Section */}
         <div className="py-16 bg-gray-100 dark:bg-gray-800">
