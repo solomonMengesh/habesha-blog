@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/layout/Layout';
-import { mockPosts } from '../data/mockData'; // ✅ Correct import
-// import { users } from '../data/mockData'; // ✅ Correct import
+// import { mockPosts } from '../data/mockData'; // ✅ Correct import
+import { users } from '../data/mockData'; // ✅ Correct import
 const AboutPage = () => {
   return (
     <Layout>
