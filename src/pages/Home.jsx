@@ -3,6 +3,7 @@ import FeaturedPosts from '../components/blog/FeaturedPosts';
 import LatestPosts from '../components/blog/LatestPosts';
 import CategoryList from '../components/blog/CategoryList';
 import Newsletter from '../components/blog/Newsletter';
+// import BlogCard from '../components/common/BlogCard';
 
 const Home = () => {
   return (
