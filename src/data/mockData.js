@@ -1,3 +1,5 @@
+// mockData.js
+
 export const mockPosts = [
     {
       id: '1',
@@ -157,5 +159,12 @@ export const mockPosts = [
       likes: 187,
       comments: 31
     }
+  ];
+  
+  export const users = [
+    { id: 1, name: 'John Doe', role: 'Admin' },
+    { id: 2, name: 'Jane Smith', role: 'Editor' },
+    { id: 3, name: 'Emily Brown', role: 'Subscriber' },
+    { id: 4, name: 'Michael Green', role: 'Contributor' }
   ];
   

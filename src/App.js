@@ -14,6 +14,8 @@ import EditPost from './pages/EditPost';
 import Profile from './pages/Profile';
 import NotFound from './pages/NotFound';
 import CategoryPage from './pages/CategoryPage';
+import Contact from './pages/ContactPage';  // Import Contact page
+import About from './pages/AboutPage';      // Import About page
 
 // Protected route component
 const ProtectedRoute = ({ children }) => {
@@ -40,6 +42,8 @@ function App() {
                 <Route path="/register" element={<Register />} />
                 <Route path="/blog/:slug" element={<BlogPost />} />
                 <Route path="/category/:category" element={<CategoryPage />} />
+                <Route path="/about" element={<About />} /> {/* Added About Page */}
+                <Route path="/contact" element={<Contact />} /> {/* Added Contact Page */}
                 <Route 
                   path="/dashboard" 
                   element={

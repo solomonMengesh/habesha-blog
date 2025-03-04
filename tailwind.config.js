@@ -1,11 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            maxWidth: '100%',
+          },
+        },
+      },
+    },
   },
-  plugins: [],
-}
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
+};
